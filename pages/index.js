@@ -89,7 +89,7 @@ export default function Home() {
                   </a>
                 </li>
               )
-            })}
+            }).slice(0, 6)}
           </ul>
         </ProfileRelationsBoxWrapper>
         <ProfileRelationsBoxWrapper>
@@ -106,7 +106,7 @@ export default function Home() {
                   </a>
                 </li>
               )
-            })}
+            }).slice(0, 6)}
           </ul>
         </ProfileRelationsBoxWrapper>
       </div>

@@ -8,19 +8,20 @@ import { ProfileSideBar } from '../src/components/ProfileSideBar';
 export default function Home() {
   const githubUser = 'celsorgjr';
   const [comunidades, setComunidades] = React.useState([{ 
-    id: new Date().toISOString(),
+    id: new Date().toISOString(), 
     title: 'Eu odeio acordar cedo', 
     image: 'https://alurakut.vercel.app/capa-comunidade-01.jpg' 
   }]);
   
   const pessoasFavoritas = [
-      'lluccia', 
-      'peas', 
-      'rafaballerini', 
-      'juunegreiros',
-      'filipedeschamps',
-      'eduardopires'
-    ]
+    'lluccia', 
+    'peas', 
+    'rafaballerini', 
+    'juunegreiros',
+    'filipedeschamps',
+    'eduardopires',
+    'andrebaltieri'
+  ]
 
   return (
     <>

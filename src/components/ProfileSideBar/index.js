@@ -1,6 +1,6 @@
 
 import Box from '../Box';
-import { AlurakutProfileSidebarMenuDefault } from '../lib/AlurakutCommons';
+import { AlurakutProfileSidebarMenuDefault } from '../../lib/AlurakutCommons';
 
 export function ProfileSideBar(propriedades){
   return (

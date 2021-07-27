@@ -1,4 +1,4 @@
-import { SiteClient } from 'datocms-client'
+import { SiteClient } from 'datocms-client';
 
 export default async function recebedordeRequest(request, response){
     
